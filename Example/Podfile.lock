@@ -1,0 +1,16 @@
+PODS:
+  - HZRoundImageView (0.1.0)
+
+DEPENDENCIES:
+  - HZRoundImageView (from `../`)
+
+EXTERNAL SOURCES:
+  HZRoundImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HZRoundImageView: 149d4333fa783b06d40e695b397bc5679e83bb19
+
+PODFILE CHECKSUM: 919d7c21068e2730eef9c932566b25f566cf1b30
+
+COCOAPODS: 1.5.0

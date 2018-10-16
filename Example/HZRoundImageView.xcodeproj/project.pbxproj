@@ -41,7 +41,7 @@
 		3CCE08FDD9F343F9AE73D532 /* Pods-HZRoundImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZRoundImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZRoundImageView_Example/Pods-HZRoundImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		48262C63AAE4A98A3B826CE2 /* Pods-HZRoundImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZRoundImageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZRoundImageView_Tests/Pods-HZRoundImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC3D9F479AB94C67E8DDD2B /* Pods_HZRoundImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZRoundImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE461369B65858EED0F81FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5CE461369B65858EED0F81FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HZRoundImageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZRoundImageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F1173FAA2624396AC03B50F /* HZRoundImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HZRoundImageView.podspec; path = ../HZRoundImageView.podspec; sourceTree = "<group>"; };
+		6F1173FAA2624396AC03B50F /* HZRoundImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HZRoundImageView.podspec; path = ../HZRoundImageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0750DCFABE4085E21F019D /* Pods-HZRoundImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZRoundImageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZRoundImageView_Example/Pods-HZRoundImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CF3DA6FBAE4D5849EE7D285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8CF3DA6FBAE4D5849EE7D285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FFD247FC646A228715BA7C8A /* Pods_HZRoundImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZRoundImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = gerrywg;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7U57XFYQGD;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 3CCE08FDD9F343F9AE73D532 /* Pods-HZRoundImageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U57XFYQGD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZRoundImageView/HZRoundImageView-Prefix.pch";
 				INFOPLIST_FILE = "HZRoundImageView/HZRoundImageView-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 7F0750DCFABE4085E21F019D /* Pods-HZRoundImageView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U57XFYQGD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZRoundImageView/HZRoundImageView-Prefix.pch";
 				INFOPLIST_FILE = "HZRoundImageView/HZRoundImageView-Info.plist";
