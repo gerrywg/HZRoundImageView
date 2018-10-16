@@ -20,6 +20,23 @@ it, simply add the following line to your Podfile:
 pod 'HZRoundImageView'
 ```
 
+## How to use
+```
+if you use cocoaPods 
+#import <HZRoundImageView.h> 
+else
+#import "HZRoundImageView.h" 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    HZRoundImageView *imageView = [[HZRoundImageView alloc]initWithFrame:CGRectMake(100, 100, 200, 250)];
+    [imageView setBackgroundColor:[UIColor redColor]];
+    
+    [self.view addSubview:imageView];
+}
+```
+
 ## Author
 
 gerrywg, chwanggang@msn.com
