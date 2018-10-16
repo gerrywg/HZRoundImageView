@@ -36,6 +36,8 @@ else
     [self.view addSubview:imageView];
 }
 ```
+![screenshot](https://github.com/gerrywg/HZRoundImageView/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-10-16%20at%2014.51.54.png?raw=true "screenshot")
+
 
 ## Author
 
