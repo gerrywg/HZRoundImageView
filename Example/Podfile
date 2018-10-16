@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HZRoundImageView_Example' do
+  pod 'HZRoundImageView', :path => '../'
+
+  target 'HZRoundImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
